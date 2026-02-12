@@ -1,21 +1,42 @@
 # Full-Data-Cleaning-Project-using-MYSQL
-SQL practice repository covering basics to advanced concepts with hands-on queries.
+# Layoffs Data Cleaning & EDA using SQL
 
-# Data Cleaning Project (SQL)
+## 📌 Project Overview
+This project focuses on cleaning and exploring a layoffs dataset using **SQL**.  
+The raw data was provided in Excel format and analyzed after importing into a SQL database.
 
-This project focuses on cleaning a raw dataset using SQL.
-The goal is to convert messy data into a clean, analysis-ready format.
+The goal is to improve data quality and extract meaningful insights through **Exploratory Data Analysis (EDA)**.
 
-## Steps Performed
+---
+
+## 🧰 Tools Used
+- SQL (MySQL)
+- Microsoft Excel (Raw data source)
+- SQL Workbench / MySQL Workbench
+
+---
+
+## 📂 Dataset
+- Raw layoffs data in Excel format
+- Contains company, industry, country, date, and layoff details
+
+---
+
+## 🧹 Data Cleaning Steps
 - Removed duplicate records
-- Handled null and missing values
-- Standardized text columns
-- Corrected data types
-- Removed invalid records
+- Standardized company and industry names
+- Handled NULL and missing values
+- Converted date columns to proper format
+- Verified data consistency
 
-## Tools Used
-- MySQL
-- SQL
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+- Total layoffs by company
+- Layoffs by country
+- Layoffs by industry
+- Year-wise layoffs trend
+- Top companies affected
 
 ## Reference
 Inspired by Alex The Analyst (YouTube)
